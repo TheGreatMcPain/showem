@@ -7,10 +7,10 @@ showem \- monitor the progress of a parallel \fBemerge\fR(1)
 .SH DESCRIPTION
 .B showem
 is a very simple utility script, which allows you to monitor the progress of
-a parallel \fBemerge\fR(1). 
+a parallel \fBemerge\fR(1).
 
 When invoked, it shows a split screen display, which updates once a second (or as otherwise specified by the \fB--wait-seconds\fR option).
-The top part shows the tail of the current \fBPortage\fR(5) download log, 
+The top part shows the tail of the current \fBPortage\fR(5) download log,
 and the lower part shows the tail of the most recent \fBPortage\fR(5)
 build log.
 
@@ -39,7 +39,7 @@ Although \fBshowem\fR uses \fBtput\fR(1) to access the number of columns and row
 and to set colours, it does use an \fBxterm\fR(1) escape sequence to change
 the window title.
 
-It should work under most modern terminal emulators, including Gnome's. 
+It should work under most modern terminal emulators, including Gnome's.
 .SH EXIT STATUS
 The exit status is 1 if an error occurred, and 0 otherwise.
 .SH NOTES
